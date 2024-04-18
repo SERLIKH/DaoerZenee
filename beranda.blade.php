@@ -53,7 +53,25 @@
         <h1 class = "welcomeTxt">Welcome to Daoer Zenee!</h1>
         <p class="subWelcomeTxt">Explore our products, gallery, and much more!</p>
       </div>
-      <!-- ...rest of the code... -->
     </div>
+
+    <div class="card mb-3" style="width: 75%">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="CardHome.png" class="img-fluid" alt="Product 1" width="">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">DAOER ZENEE</h5>
+            <br>
+            <p class="card-text">Komunitas kami memberdayakan umat KLMTD (kaum kecil, lemah, miskin, telantar, disabilitas) dengan tujuan untuk membuat produk daur ulang. Mereka membawa semangat partisipasi dengan langkah-langkah kecil yang mencintai dan menyelamatkan bumi melalui prinsip-prinsip 'reuse-reduce-recycle-renew'.</p>
+            <button class="btn-doante">DONATE</button>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+    
   </body>
 </html>
