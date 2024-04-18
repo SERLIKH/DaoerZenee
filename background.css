@@ -18,7 +18,7 @@ body {
   }     
 
 .page-content {
-    padding: 0.3srem 5rem 0;
+    padding: 0.3rem 5rem 0;
   }
 
 .bg-image {
@@ -55,23 +55,38 @@ body {
     font-weight: 300;
 }
 
-/* .container-fluid{
-    background-color: #F2FFD8;
-} */
-/* .nav-link:hover{
-    text-decoration: underline;
-} */
+.sectionpaper {
+  margin-top: 30rem; /* Adjust this value to position the sectionpaper as desired */
+}
 
+.card {
+  border-radius: 20px;
+  background-color: #CFF699;
+}
 
-/* .homeBanner{
-    width: 100vh;
-    display: flex;
-    justify-content :center;
-    align-items : center;
-} */
-  
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 
-/* .logoDaoer{
-    padding: 10ph;
-    justify-content: left;
-} */
+.card-title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 18px; /* Adjust this value to your desired font size */
+  line-height: 1.5; /* Adjust this value to your desired line height */
+  color: #333; /* Adjust this value to your desired text color */
+}
+
+.btn-doante {
+  background-color: #8BAC02;
+  color: rgb(0, 0, 0); /* This line is to ensure the button text is visible */
+  padding: 10px 20px; /* This line is to add some padding around the button text */
+  border: none; /* This line is to remove the default border */
+  border-radius: 12px; /* This line is to add rounded corners to the button */
+  cursor: pointer; /* This line is to change the cursor to a pointer when hovering over the button */
+  font-weight: bold; /* This line is to make the button text appear in bold */
+  font-size: 15px;
+}
